@@ -11,7 +11,7 @@ class App extends React.Component {
   render() {
     return (
       <View style={styles.appContainer}>
-        <Header title="Random People" />
+        <Header title="Gym helper app" />
         <Home />
       </View>
     );

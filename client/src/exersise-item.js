@@ -53,19 +53,14 @@ const testDate = (lastSession, session) => {
 //    id - the id of which object to change in the json
 */  
 const updateDate = (id) => {
-  alert(id);
   let body = {
     id: id
   };
 
   axios
-    .post("/exercises", body)
-    .then(function(response) {
-        console.log(response.data);
-    })
-    .catch(function(error) {
-      console.log(error);
-    });
+    .post("/exercises", body);
+  
+  alert("done");
 
 }
 
@@ -81,16 +76,10 @@ const styles = StyleSheet.create({
     flex: 1
   },
   rowDataText: {
-    fontSize: 20,
+    fontSize: 24,
     textTransform: "capitalize",
-    color: "#4b4b4b"
+    color: "#333300"
   },
-  rowDataSubText: {
-    fontSize: 13,
-    opacity: 0.8,
-    color: "#a8a689",
-    marginTop: 4
-  }
 });
 
 export default ExersiseItem;

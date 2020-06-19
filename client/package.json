@@ -1,0 +1,44 @@
+{
+  "name": "random-people",
+  "version": "0.1.0",
+  "private": true,
+  "main": "Src/App.js",
+  "proxy": "http://localhost:3001",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "expo": "^37.0.12",
+    "react": "^16.13.1",
+    "react-art": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-native": "^0.62.2",
+    "react-native-web": "^0.12.3",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start-web": "react-scripts start",
+    "build-web": "react-scripts build",
+    "test-web": "react-scripts test",
+    "eject-web": "react-scripts eject",
+    "start-native": "expo start",
+    "ios": "expo ios",
+    "build:ios": "expo build:ios"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -8,7 +8,7 @@ const ExersiseItem = ({ item: exersise }) => {
     justifyContent: "center",
     alignItems: "center",
     padding: 30,
-    marginBottom: 5,
+    marginBottom: 2,
     backgroundColor: testDate(exersise.date, 2),
     borderBottomWidth: StyleSheet.hairlineWidth,
     borderBottomColor: "rgba(0,0,0,0.1)"
